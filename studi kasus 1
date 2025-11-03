@@ -1,0 +1,14 @@
+#studi kasus 
+#menghitung fungsi dengan numpy
+import numpy as np
+x = np.array([0, 1, 2, 3, 4,])
+f = 3*x**2 + 2*x + 1
+print("dengan numpy: ")
+dengan numpy:
+for xi , fi in zip (x, f):
+    print(f"f({x}) = {fi}")
+f([0 1 2 3 4]) = 1
+f([0 1 2 3 4]) = 6
+f([0 1 2 3 4]) = 17
+f([0 1 2 3 4]) = 34
+f([0 1 2 3 4]) = 57
